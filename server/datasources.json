@@ -1,0 +1,11 @@
+{
+  "stage-mongo": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "stage-mongo-elastic",
+    "password": "",
+    "name": "stage-mongo",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
