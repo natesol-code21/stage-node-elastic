@@ -5,7 +5,7 @@ export class App {
       { route: ['', 'welcome'], name: 'welcome',      moduleId: 'welcome',      nav: true, title: 'Welcome' },
       { route: 'users',         name: 'users',        moduleId: 'users',        nav: true, title: 'Github Users' },
       { route: 'child-router',  name: 'child-router', moduleId: 'child-router', nav: true, title: 'Child Router' },
-      { route: 'project',      name: 'project',     moduleId: 'project', nav: true, title:'List' }
+      { route: 'project',      name: 'project',     moduleId: 'modules/project/index', nav: true, title:'List Project' }
     ]);
 
     this.router = router;
